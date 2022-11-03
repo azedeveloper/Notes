@@ -54,6 +54,16 @@
     padding-bottom: 30px;
   }
 
+  #github {
+    width: 60px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-left: 40px;
+    padding-bottom: 30px;
+  }
+
   #icon::after {
     animation: fadeIn 1s;
   }
