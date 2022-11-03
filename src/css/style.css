@@ -1,48 +1,48 @@
-@font-face {
-  font-family: rounded;
-  src: url("../assets/Font.ttf")
-}
+/*/ This is a mess! /*/
 
-@keyframes fadeIn {
+
+ @font-face {
+  font-family: rounded-font;
+  src: url("../assets/fonts/font.ttf")
+ }
+
+ @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
-}
-:root{
+ }
+
+ :root{
   --primary-color:#edecec;
   --secondary-color: white;  
   --third-color: black;
   --fourth-color: rgba(0, 0, 0, .3)
-}
+ }
 
-.dark-theme{
+ .dark-theme{
   --primary-color: #1b1b1b;
   --secondary-color: #2b2b2b;
   --third-color: white;
   --fourth-color: rgba(255, 255, 255, .3)
-  
-}
+ }
 
-
-
-body {
+ body {
     margin: 0;
     background: var(--primary-color);
     transition: background 0.2s;
-  }
+ }
 
 
 
   h1 {
     color: var(--third-color);
-    font-family: rounded;
+    font-family: rounded-font;
     font-size: 60px;
   }
   h2 {
     color: var(--third-color);
-    font-family: rounded;
+    font-family: rounded-font;
     font-size: 20px;
   }
-
 
   #icon {
     width: 60px;
