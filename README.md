@@ -21,9 +21,10 @@ Mobile Compatibility
 The mobile version of the site is currently still being worked on. It might work on mobile but not looks the best.📱
 
 
-Known Issues
+Known Issues 🛑
 ------
 
-**The dark/light mode might be broken if you have dark mode on phone.** 
-**On some devices the add notes button might be wider than usual**
+- **The dark/light mode might be broken if you have dark mode on phone.** 
+
+- **On some devices the add notes button might be wider than usual**
 
