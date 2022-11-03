@@ -25,6 +25,7 @@ The notes are saved like this:
   localStorage.setItem("stickynotes-notes", JSON.stringify(notes));
 ```
 
+
 This means that using something like **incognito mode** won't save your notes. 🕵️
 
 
