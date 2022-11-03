@@ -26,5 +26,5 @@ Known Issues 🛑
 
 - **The dark/light mode might be broken if you have dark mode on phone.** 
 
-- **On some devices the add notes button might be wider than usual**
+- **On some devices the add notes button might be wider than usual.**
 
