@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/script.js" defer></script>
+    <link rel="icon" href="assets/icon-light.png">
+    <title>Notes</title>
+</head>
+<body>
+    <center>
+        <h1>Notes &#x1F4D2;</h1>
+        <h2>Click + to add and Double Click to remove.</h2>
+    </center>
+
+    <div id="app">
+        <button class="add-note" type="button">+</button>
+        <img src="assets/moon.png" id="icon">
+    </div> 
+
+    <script>
+        var icon = document.getElementById("icon")
+        var link = document.querySelector("link[rel~='icon']");
+
+        icon.onclick = function() {
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")) {
+                icon.src ="assets/sun.png"
+                link = document.createElement('link');
+                link.rel = 'icon';
+                document.getElementsByTagName('head')[0].appendChild(link);
+                link.href = 'assets/icon-dark.png'
+            } else {
+                icon.src = "assets/moon.png"
+                link = document.createElement('link');
+                link.rel = 'icon';
+                 document.getElementsByTagName('head')[0].appendChild(link);
+                link.href = 'assets/icon-light.png'
+            }
+        }
+        
+    </script>
+    
+</body>
+</html>
