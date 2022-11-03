@@ -8,7 +8,12 @@ About
 ------
 This is a note website where you can make your own notes, It was made using HTML, CSS and JavaScript in just a day. So you can expect some bugs and bad code.
 
+Features
+------
 
+- Sticky Notes
+- Edit/Delete Notes
+- Dark Mode
 
 
 Security
