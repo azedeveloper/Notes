@@ -15,7 +15,7 @@
   --primary-color:#edecec;
   --secondary-color: white;  
   --third-color: black;
-  --fourth-color: rgba(0, 0, 0, .3)
+  --fourth-color: rgba(0, 0, 0, .3);
   color-scheme: light only;
 }
 
@@ -23,7 +23,7 @@
   --primary-color: #1b1b1b;
   --secondary-color: #2b2b2b;
   --third-color: white;
-  --fourth-color: rgba(255, 255, 255, .3)
+  --fourth-color: rgba(255, 255, 255, .3);
   color-scheme: light only;
 }
 
