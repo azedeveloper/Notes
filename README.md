@@ -22,7 +22,7 @@ This site does not publish any of your notes to the internet. **All of the notes
 
 The notes are saved like this:
 ```
-  localStorage.setItem("stickynotes-notes", JSON.stringify(notes));
+  localStorage.setItem("notes", JSON.stringify(notes));
 ```
 
 
