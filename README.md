@@ -1,4 +1,6 @@
-![AzE's Note Website](https://azenotes.vercel.app)
+AzE's Note Website
+======
+
 
 ![alt text](https://i.ibb.co/hKN9NGs/notes.png)
 
