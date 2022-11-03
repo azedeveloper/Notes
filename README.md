@@ -14,6 +14,7 @@ This is a note website where you can make your own notes, It was made using HTML
 Security
 ------
 This site does not publish any of your notes to the internet. **All of the notes are saved in your browsers local storage** 🌐
+
 This means that using something like **incognito mode** won't save your notes. 🕵️
 
 
