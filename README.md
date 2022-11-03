@@ -19,6 +19,10 @@ Features
 Security
 ------
 This site does not publish any of your notes to the internet. **All of the notes are saved in your browsers local storage** 🌐
+```
+  localStorage.setItem("stickynotes-notes", JSON.stringify(notes));
+```
+
 This means that using something like **incognito mode** won't save your notes. 🕵️
 
 
