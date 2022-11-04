@@ -18,7 +18,7 @@
   --fourth-color: rgba(0, 0, 0, .3);
   color-scheme: light only;
 }
-
+/*/
 .dark-theme{
   --primary-color: #1b1b1b;
   --secondary-color: #2b2b2b;
@@ -69,20 +69,200 @@
   #icon::after {
     animation: fadeIn 1s;
   }
+  /*/
+
+  @media (max-width: 576px) {
+    .dark-theme{
+      --primary-color: #1b1b1b;
+      --secondary-color: #2b2b2b;
+      --third-color: white;
+      --fourth-color: rgba(255, 255, 255, .3);
+      color-scheme: light only;
+    }
+    
+     body {
+        margin: 0;
+        background: var(--primary-color);
+        transition: background 0.2s;
+     }
+    
+    
+    
+      h1 {
+        color: var(--third-color);
+        font-family: rounded;
+        font-size: 60px;
+      }
+      h2 {
+        color: var(--third-color);
+        font-family: rounded;
+        font-size: 20px;
+      }
+    
+      #icon {
+        width: 60px;
+        cursor: pointer;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding-right: 40px;
+        padding-bottom: 30px;
+      }
+    
+      #github {
+        width: 60px;
+        cursor: pointer;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding-left: 40px;
+        padding-bottom: 30px;
+      }
+    
+      #icon::after {
+        animation: fadeIn 1s;
+      }
+
+    #app {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 24px;
+      gap: 24px;
+    }
+    
+    .note {
+      height: 200px;
+      box-sizing: border-box;
+      padding: 16px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+      background-color: var(--secondary-color);
+      resize: none;
+      color: var(--third-color);
+      font-family: sans-serif;
+      font-size: 16px;
+      transition: background 0.2s;
+    }
+    
+    .add-note {
+      height: 200px;
+      border: none;
+      outline: none;
+      box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      font-size: 120px;
+      background-color: var(--secondary-color);
+      color: var(--fourth-color);
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    
+    .add-note:hover {
+      background: rgba(0, 0, 0, 0.2);
+    }
+  }
 
   @media (min-width: 576px) {
-   #app {
-    grid-template-columns: 1fr 1fr;
-   }
+
+    .dark-theme{
+      --primary-color: #1b1b1b;
+      --secondary-color: #2b2b2b;
+      --third-color: white;
+      --fourth-color: rgba(255, 255, 255, .3);
+      color-scheme: light only;
+    }
+    
+     body {
+        margin: 0;
+        background: var(--primary-color);
+        transition: background 0.2s;
+     }
+    
+    
+    
+      h1 {
+        color: var(--third-color);
+        font-family: rounded;
+        font-size: 60px;
+      }
+      h2 {
+        color: var(--third-color);
+        font-family: rounded;
+        font-size: 20px;
+      }
+    
+      #icon {
+        width: 60px;
+        cursor: pointer;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding-right: 40px;
+        padding-bottom: 30px;
+      }
+    
+      #github {
+        width: 60px;
+        cursor: pointer;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding-left: 40px;
+        padding-bottom: 30px;
+      }
+    
+      #icon::after {
+        animation: fadeIn 1s;
+      }
+
+    #app {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 200px);
+      padding: 24px;
+      gap: 24px;
+    }
+    
+    .note {
+      height: 200px;
+      box-sizing: border-box;
+      padding: 16px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+      background-color: var(--secondary-color);
+      resize: none;
+      color: var(--third-color);
+      font-family: sans-serif;
+      font-size: 16px;
+      transition: background 0.2s;
+    }
+    
+    .add-note {
+      height: 200px;
+      border: none;
+      outline: none;
+      box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      font-size: 120px;
+      background-color: var(--secondary-color);
+      color: var(--fourth-color);
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    
+    .add-note:hover {
+      background: rgba(0, 0, 0, 0.2);
+    }
+    
   }
+
   
-  
-  #app {
+ /*/ #app {
     display: grid;
     grid-template-columns: repeat(auto-fill, 200px);
     padding: 24px;
     gap: 24px;
-    
   }
   
   .note {
