@@ -84,6 +84,7 @@
         margin: 0;
         background: var(--primary-color);
         transition: background 0.2s;
+        scrollbar-color: var(--primary-color) var(--secondary-color);
      }
     
     
@@ -125,7 +126,7 @@
 
     #app {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       padding: 24px;
       gap: 24px;
     }
@@ -137,6 +138,7 @@
       border: none;
       border-radius: 10px;
       box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+      scrollbar-color: var(--primary-color) var(--secondary-color);
       background-color: var(--secondary-color);
       resize: none;
       color: var(--third-color);
@@ -225,6 +227,7 @@
     
     .note {
       height: 200px;
+      scrollbar-color: var(--primary-color) var(--secondary-color);
       box-sizing: border-box;
       padding: 16px;
       border: none;
