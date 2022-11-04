@@ -69,6 +69,13 @@
   #icon::after {
     animation: fadeIn 1s;
   }
+
+  @media (min-width: 576px) {
+   #app {
+    grid-template-columns: 1fr 1fr;
+   }
+  }
+  
   
   #app {
     display: grid;
