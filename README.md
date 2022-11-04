@@ -8,13 +8,23 @@ About
 ------
 This is a note website where you can make your own notes, It was made using HTML, CSS and JavaScript in just a day. So you can expect some bugs and bad code.
 
+Features
+------
 
+- Sticky Notes
+- Edit/Delete Notes
+- Dark Mode
 
 
 Security
 ------
 This site does not publish any of your notes to the internet. **All of the notes are saved in your browsers local storage** 🌐
-![Proof](https://i.ibb.co/B60bW7d/unknown-30.png)
+
+The notes are saved like this:
+```
+localStorage.setItem("notes", JSON.stringify(notes));
+```
+
 
 This means that using something like **incognito mode** won't save your notes. 🕵️
 
