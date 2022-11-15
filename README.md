@@ -6,7 +6,7 @@
 
 About
 ------
-This is a note website where you can make your own notes, It was made using HTML, CSS and JavaScript in just.
+This is a note website where you can make your own notes, It was made using HTML, CSS and JavaScript (Vanilla).
 
 Features
 ------
