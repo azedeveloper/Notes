@@ -3,7 +3,10 @@
 
 
 ![Notes](https://i.ibb.co/hKN9NGs/notes.png)
-![](https://i.ibb.co/18348GN/image.png)
+
+
+
+![](https://i.ibb.co/dg4W6dH/image.png)
 
 About
 ------
