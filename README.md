@@ -1,4 +1,4 @@
-### [Notes](https://azenotes.vercel.app)
+[Notes](https://azenotes.vercel.app)
 
 
 ![Notes](https://i.ibb.co/hKN9NGs/notes.png)
