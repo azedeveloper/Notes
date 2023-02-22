@@ -59,14 +59,15 @@
         padding-top: 10px;
       }
     
-      #github {
+       #github {
         width: 40px;
         cursor: pointer;
+        position: fixed;
         top: 0;
         left: 0;
-        padding-left: 5px;
-        padding-top: 10px;
-      } 
+        padding-left: 40px;
+        padding-top: 65px;
+      }
     
       #github-parent {
         position: absolute;
